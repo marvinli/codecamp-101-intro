@@ -6,6 +6,7 @@ body {
     background-color: #74566f;
     min-height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -28,7 +29,6 @@ body {
     height: 27vh;
     width: auto;
     animation: spin 2s linear infinite;
-    z-index: 10;
 }
 .wheel-front {
     left: calc(50% + 9vh);
@@ -94,21 +94,19 @@ body {
 
 .driver-body {
     position: absolute;
-    bottom: 38vh;
+    bottom: 37.7vh;
     left: calc(50% - 9.5vh);
     height: 10.8vh;
     width: auto;
-    z-index: 15;
     transform-origin: bottom center;
     animation: bounce 0.5s ease-in-out infinite;
 }
 .izzy {
     position: absolute;
-    bottom: 44.5vh;
+    bottom: 44.2vh;
     left: calc(50% - 6.8vh);
     height: 10vh;
     width: auto;
-    z-index: 15;
     animation: wobble 1s ease-in-out infinite;
     transform-origin: bottom center;
 }
