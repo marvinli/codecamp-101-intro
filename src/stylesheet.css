@@ -29,6 +29,7 @@ body {
     height: 27vh;
     width: auto;
     animation: spin 2s linear infinite;
+    animation-play-state: paused;
 }
 .wheel-front {
     left: calc(50% + 9vh);
@@ -100,6 +101,7 @@ body {
     width: auto;
     transform-origin: bottom center;
     animation: bounce 0.5s ease-in-out infinite;
+    animation-play-state: paused;
 }
 .izzy {
     position: absolute;
@@ -108,6 +110,7 @@ body {
     height: 10vh;
     width: auto;
     animation: wobble 1s ease-in-out infinite;
+    animation-play-state: paused;
     transform-origin: bottom center;
 }
 
