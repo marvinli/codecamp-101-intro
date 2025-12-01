@@ -1,7 +1,7 @@
 let speed = 20;
 
 function updateSpeed() {
-    document.querySelector('.speed').textContent = `${speed} mph`;
+    speedSign({ speed });
     animateBackground({ speed });
     spinWheels({ speed });
     wobbleHead({ speed });
